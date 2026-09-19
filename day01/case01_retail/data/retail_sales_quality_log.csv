@@ -1,0 +1,9 @@
+issue_type,field_or_row,action,status,reason
+Consistency,Region,Standardized whitespace/case,Corrected,Standardized 2 value(s) without changing their apparent meaning.
+Mapping,P-A / Category,Changed Electronic to Home,Corrected with documented assumption,All other P-A records use Home; Electronic is a single inconsistent value.
+Missing,Sales / source row 33,Derived Sales = Cost + Profit,Corrected with documented assumption,Uses the dataset's stated Profit = Sales - Cost relationship.
+Missing,Profit / source row 34,Derived Profit = Sales - Cost,Corrected with documented assumption,Uses the dataset's stated Profit = Sales - Cost relationship.
+Duplicate,[262],"Removed exact duplicate row(s), retaining the first occurrence",Corrected,The duplicate matched every field and no transaction ID was available.
+Business-rule check,Quantity / source row 78,Converted negative quantity to absolute value,Corrected with documented assumption,All other quantities are positive; no return indicator exists in the source.
+Business-rule check,Discount / source row 56,Converted 2.5 to 0.25,Corrected with documented assumption,The dataset uses decimal rates from 0 to 0.30; 2.5 is treated as a misplaced decimal.
+Business-rule check,Sales and Cost,Left loss-making rows unchanged and flagged,Needs verification,Negative profit can be a valid business outcome; confirm with business context.
