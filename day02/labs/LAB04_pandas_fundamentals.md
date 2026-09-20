@@ -100,9 +100,9 @@ df.info()
 ตอบ:
 
 ```text
-Column ใดเป็น Dimension?
-Column ใดเป็น Metric?
-Column ใดควรเป็น Date?
+Column ใดเป็น Dimension? ตัวแปร
+Column ใดเป็น Metric? indicator/เกณฑ์/ดัชนีชี้วัด
+Column ใดควรเป็น Date? ชื่อ/type
 ```
 
 ---
@@ -158,7 +158,7 @@ high_roas = df.query("ROAS > 3")
 
 ตอบ:
 
-> Filter นี้ช่วยตอบคำถามอะไร?
+> Filter นี้ช่วยตอบคำถามอะไร? การจัดกลุ่ม
 
 ---
 

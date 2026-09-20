@@ -23,9 +23,9 @@ Business Question:
 Which channels and customer segments deserve more or less budget?
 
 My analysis plan (3 items):
-1. __________________________________
-2. __________________________________
-3. __________________________________
+1. พิจารณา revenue
+2. พิจารณา spend
+3. พิจารณา revenue และ spend
 ```
 
 สำหรับแต่ละข้อ เขียนว่าคาดว่าจะใช้ Metric อะไร
